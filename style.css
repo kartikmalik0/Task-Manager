@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    /* display: flex; */
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+.task-container {
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    margin: 100px auto 20px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.task-container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cc6600;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.input-container input {
+    height: 30px;
+    flex-basis: 80%;
+    border-style: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+.input-container button {
+    border-radius: 30px;
+    padding: 17px 50px;
+    cursor: pointer;
+    flex-basis: 20%;
+    background: #fe5b20;
+    border: none;
+}
+
+#list-container {
+    margin-left: 50px;
+    list-style: none;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
+
+ul li {
+    margin-bottom: 30px;
+    height: 8px;
+}
+
+ul li span {
+    position: absolute;
+    right: 8%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%
+}
+
+ul li span:hover {
+    background: rgb(192, 189, 189);
+}
