@@ -8,11 +8,20 @@ body {
 }
 
 .container {
-    /* display: flex; */
     padding: 10px;
     width: 100%;
     height: 100vh;
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+#input-box {
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
 }
 
 .task-container {
@@ -74,6 +83,8 @@ ul li.checked {
 ul li {
     margin-bottom: 30px;
     height: 8px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 ul li span {
